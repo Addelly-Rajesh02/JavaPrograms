@@ -1,0 +1,21 @@
+Functional interface
+1. A functional interface in Java is an interface that has only one abstract method,
+    making it suitable for use with lambda expressions and method references (introduced in Java 8).
+2. Lambda expressions provide its implementation.
+3. @FunctionalInterface annotation is optional but recommended to enforce this rule at compile time,
+    Use @FunctionalInterface to ensure only one abstract method (annotation is optional).
+4. Enable clean, concise code using lambdas and method references.
+5. @FunctionalInterface annotation ensures that an interface cannot have more than one abstract method.
+    If multiple abstract methods are present, the compiler throws an “Unexpected @FunctionalInterface
+    annotation” error.
+
+Note:
+A functional interface can also extend another functional interface.
+
+Types of Functional Interfaces in Java:
+* Java 8 introduced four main functional interface types under the package java.util.function.
+* These are widely used in Stream API, collections and lambda-based operations.
+1. Consumer
+2. Predicate
+3. Function
+4. Supplier

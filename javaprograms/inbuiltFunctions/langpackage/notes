@@ -1,0 +1,42 @@
+✅ 1. java.lang Package (Auto‑imported)
+
+⭐ Object
+Base class of all classes in Java.
+Common methods:
+toString() – returns object representation as String
+equals() – compares two objects
+hashCode() – returns hash value
+clone() – creates a copy of the object
+getClass() – returns runtime class
+
+⭐ String
+Immutable text class.
+Common methods:
+length()
+charAt(int index)
+substring(int start, int end)
+toLowerCase(), toUpperCase()
+contains(), startsWith(), endsWith()
+replace(), trim()
+split(String regex)
+equals(), equalsIgnoreCase()
+
+⭐ StringBuilder / StringBuffer
+Mutable strings.
+Common methods:
+append()
+insert()
+replace()
+delete()
+reverse()
+toString()
+
+⭐ Math
+Math utilities.
+Common methods:
+sqrt()
+pow()
+abs()
+round(), ceil(), floor()
+max(), min()
+random()

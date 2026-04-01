@@ -1,0 +1,90 @@
+Java Methods:
+A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console.
+Creating a Java Method: To create a Java method, there should be an access modifier followed by the return type, method's name, and parameters list.
+
+Access modifiers
+•	public: Accessible from anywhere.
+•	protected: Accessible within its package and by subclasses in other packages.
+•	private: Accessible only within its own class.
+•	default (no keyword): Accessible only within its own package.
+
+Non-access modifiers
+•	abstract: Indicates that a class or method is incomplete and must be extended or implemented.
+•	final: Prevents a class from being subclassed, a method from being overridden, or a variable from being reassigned.
+•	static: Associates a method or variable with the class itself, rather than with any specific instance of the class.
+•	synchronized: A thread-safety modifier used for methods and blocks of code.
+•	transient: Marks a variable as not being part of a serialized object.
+•	volatile: Ensures that a variable's value is always read from and written to main memory, preventing potential issues with multi-threaded applications.
+
+Abstract Method
+A method without a body (no implementation).
+Declared in abstract classes or interfaces.
+Child classes must override it.
+
+Default Method (Interface Method)
+Introduced in Java 8.
+Used inside interfaces.
+Has a method body.
+Useful to add new methods to interfaces without breaking existing implementations.
+
+Static Method (Class-Level Method)
+Belongs to the class, not to objects.
+Can be called without creating an object.
+Useful for utility or helper methods.
+
+Final Method
+Cannot be overridden by subclasses.
+Used when you want to prevent modification of a method’s behavior.
+
+Concrete Method
+A normal method with a body.
+Opposite of an abstract method.
+
+Method Reference:
+✅ Introduction
+Method Reference is a feature introduced in Java 8 that provides a shorter,
+cleaner, and more readable way to use lambda expressions when the lambda only
+calls an existing method.
+
+✅ Definition
+A method reference is a compact way of referring to a method of a class or instance without executing it.
+It is used when you want to pass a method as an argument to another method.
+Method references work only with functional interfaces (interfaces with one abstract method), such as:
+Runnable
+Callable
+Comparator
+Predicate
+Supplier
+Function
+etc.
+
+📌 Why Use Method References?
+Reduces code length
+Improves readability
+Avoids unnecessary lambda expressions
+Keeps code expressive and clean
+
+⭐ Types of Method References in Java
+Java provides four types of method references:
+1️⃣ Reference to a Static Method
+Syntax: ClassName::staticMethodName
+Example: Function<Integer, String> f = String::valueOf;
+Equivalent lambda: Function<Integer, String> f = n -> String.valueOf(n);
+Function<Integer, String> f = n -> String.valueOf(n);
+2️⃣ Reference to an Instance Method of a Particular Object
+Syntax: objectName::instanceMethodName
+Example:
+String name = "Rajesh";
+Supplier<Integer> s = name::length;
+Equivalent lambda: Supplier<Integer> s = () -> name.length();
+3️⃣ Reference to an Instance Method of an Arbitrary Object of a Class
+Used mostly in Streams.
+Syntax: ClassName::instanceMethodName
+Example: list.stream().map(String::toLowerCase);
+Equivalent lambda: list.stream().map(s -> s.toLowerCase());
+4️⃣ Reference to a Constructor
+Syntax: ClassName::new
+Example: Supplier<ArrayList> s = ArrayList::new;
+Equivalent lambda: Supplier<ArrayList> s = () -> new ArrayList();
+
+

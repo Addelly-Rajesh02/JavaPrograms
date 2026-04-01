@@ -1,0 +1,13 @@
+Java 8 Optional Class
+* Java 8 introduced the Optional class in the java.util package to handle the problem of null values
+* more gracefully. Instead of risking NullPointerException (NPE), Optional provides a container object
+* that may or may not hold a non-null value.
+* To avoid abnormal termination, we use the Optional class.
+Why Do We Need Optional
+* Traditionally, developers relied on null to represent the absence of a value,
+    which often caused NullPointerException.
+
+Creating Optional Objects
+1. Optional.empty(): Returns an empty Optional.
+2. Optional.of(value): Returns an Optional containing the given non-null value.
+3. Optional.ofNullable(value): Returns an Optional describing the value if non-null, otherwise empty

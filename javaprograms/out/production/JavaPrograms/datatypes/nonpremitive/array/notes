@@ -1,0 +1,21 @@
+✅ Array Basics
+Definition: Array is a collection of elements of the same type stored in a single variable.
+Fixed Size: Size is decided at creation and cannot change.
+Indexing: Starts from 0 (first element) to length-1.
+
+✅ Types
+Single-Dimensional: int[] arr = new int[5];
+Multi-Dimensional: int[][] arr = new int[3][3];
+
+✅ Key Points
+Access: arr[index]
+Length: arr.length
+Default Values: Numeric → 0, Boolean → false, Object → null.
+
+✅ Advantages
+Easy to store multiple values of same type.
+Fast access using index.
+
+✅ Limitations
+Fixed size.
+Cannot store different data types together.

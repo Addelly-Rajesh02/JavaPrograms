@@ -1,0 +1,9 @@
+Widening Type Casting:
+-Widening type casting is also known as implicit type casting in which a smaller type is converted into a larger type,
+-it is done by the compiler automatically.
+
+Narrowing Type Casting:
+Narrowing type casting is also known as explicit type casting or explicit type conversion which is done by the programmer manually.
+In the narrowing type casting a larger type can be converted into a smaller type.
+When a programmer changes the variable type while writing the code. We can use the cast operator to change the type of the variable.
+For example, double to int or int to double.

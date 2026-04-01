@@ -1,0 +1,32 @@
+What is Java?
+•	Java is a popular high-level, object-oriented programming language that was originally developed by Sun Microsystems and released in 1995.
+•	Currently, Java is owned by Oracle, and more than 3 billion devices run Java. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+•	Today Java is being used to develop numerous types of software applications, including desktop apps, mobile apps, web apps, games, and much more.
+•	Java is a general-purpose programming language intended to let programmers Write Once, Run Anywhere (WORA). This means that compiled Java code can run on all platforms that support Java without the need to recompile.
+
+Different types of main methods in java:
+    public static void main(String[] args)
+    public static void main(String... args)
+    static public void main(String[] args)
+    public static void main(String args[])
+
+User Input in Java:
+•	To take input from the user in Java, the Scanner class is used. The Scanner class a built-in class of java.util package.
+•	Java Scanner class provides many built-in methods to take different types of user inputs from the users.
+•	Methods for Different Types of User Inputs
+•	The Scanner class provides different methods for the different types of User inputs.
+next() → Reads next word.
+nextLine() → Reads full line.
+nextInt() → Reads integer.
+nextDouble() → Reads double.
+nextFloat() → Reads float.
+nextLong() → Reads long.
+nextBoolean() → Reads true/false.
+Check methods:
+hasNext() → More input?
+hasNextInt() → Next is int?
+hasNextLine() → Next is line?
+Other:
+useDelimiter() → Change separator.
+close() → Close scanner.
+

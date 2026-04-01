@@ -1,0 +1,39 @@
+✅ Top-Level Interface
+java.lang
+Comparable
+Runnable
+Cloneable
+Iterable
+
+✅ Collection Framework Interfaces (java.util)
+Collection
+List
+Implementations: ArrayList, LinkedList
+Set
+HashSet, TreeSet
+Queue
+PriorityQueue, Deque
+Map
+SortedMap
+NavigableMap
+Iterator
+ListIterator
+
+✅ Other Important Interfaces
+java.util.Comparator → Custom sorting
+java.io.Serializable → Marker interface
+java.util.concurrent
+Executor
+Callable
+Future
+
+✅ Marker Interfaces
+Serializable
+Cloneable
+Remote
+
+✅ Functional Interfaces (Java 8+)
+Predicate
+Function
+Consumer
+Supplier

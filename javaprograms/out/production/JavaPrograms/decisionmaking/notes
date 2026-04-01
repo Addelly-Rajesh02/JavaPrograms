@@ -1,0 +1,23 @@
+Decision Making Statements
+
+Conditional Statements
+1. if → Executes block if condition is true.
+2. if-else → Executes one block if true, another if false.
+3. if-else-if → Multiple conditions checked in sequence.
+4. nested if -> you can also place an if statement inside another if.
+             This is called a nested if statement.
+             A nested if lets you check for a condition only if another
+             condition is already true.
+5. switch → Selects block based on matching case value.
+
+Jump Statements
+1. break → Exits loop or switch.
+2. continue → Skips current iteration, goes to next.
+3. return → Exits method and optionally returns value.
+
+Loop Statements
+1. for → Repeats block for fixed number of times.
+2. while → Repeats block while condition is true.
+3. do-while → Executes block at least once, then checks condition.
+4. for-each → Iterates through elements in a collection or array.
+

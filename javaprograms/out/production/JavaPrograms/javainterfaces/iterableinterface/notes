@@ -1,0 +1,31 @@
+✅ Iterator
+Used to traverse elements in a collection.
+Methods:
+hasNext() → Checks if more elements exist.
+next() → Returns next element.
+remove() → Removes current element.
+
+✅ Collection Framework
+Provides javainterfaces and classes for storing and manipulating groups of objects.
+Located in java.util package.
+Main Interfaces:
+Collection → Root interface.
+z
+
+
+✅ Hierarchy
+Collection Interface
+List → ArrayList, LinkedList, Vector
+Set → HashSet, LinkedHashSet, TreeSet
+Queue → PriorityQueue, Deque
+
+Map Interface
+HashMap, LinkedHashMap, TreeMap, Hashtable
+
+✅ Key Points
+ArrayList → Dynamic array.
+LinkedList → Doubly linked list.
+HashSet → Unordered set.
+TreeSet → Sorted set.
+HashMap → Key-value pairs, unordered.
+TreeMap → Sorted key-value pairs.

@@ -1,0 +1,50 @@
+✅ 2. java.util Package (Collections + Utilities)
+
+⭐ ArrayList
+Resizable arrays.
+Common methods:
+add()
+get()
+set()
+remove()
+contains()
+size()
+clear()
+
+⭐ HashMap
+Key-value pairs.
+Common methods:
+put(key, value)
+get(key)
+containsKey()
+containsValue()
+remove()
+size()
+keySet()
+values()
+
+⭐ HashSet
+Unique elements only.
+Methods:
+add()
+remove()
+contains()
+size()
+clear()
+
+⭐ Date & Calendar
+Used for date-time operations.
+Date Methods:
+getTime()
+after(), before()
+Calendar Methods:
+get(), set()
+add()
+getInstance()
+
+⭐ Random
+Random number generator.
+Methods:
+nextInt()
+nextDouble()
+nextBoolean()

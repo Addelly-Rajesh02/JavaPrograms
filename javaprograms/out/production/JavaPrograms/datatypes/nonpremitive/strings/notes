@@ -1,0 +1,30 @@
+Strings:
+•	A String is a sequence of characters. Strings are immutable and cannot be changed.
+String name;
+name=new String(“Hello”);
+•	String is a class but can be used like a String name=”Hello”;
+
+1. String literal (Static Memory)
+To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
+Example:
+String str = “I love java”;
+
+2. Using new keyword (Heap Memory)
+•	String s = new String("Welcome");
+•	In such a case, JVM will create a new string object in normal (non-pool) heap memory and the literal "Welcome" will be placed in the string constant pool. The variable s will refer to the object in the heap (non-pool)
+In the given example only one object will be created. Firstly JVM will not find any string object with the value "Welcome" in the string constant pool, so it will create a new object. After that it will find the string with the value "Welcome" in the pool, it will not create a new object but will return the reference to the same instance.
+Example:
+String str = new String (“Java”);
+
+StringBuffer
+StringBuffer is a peer class of String, it is mutable in nature and it is thread safe class , we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread. As it is thread safe so there is extra overhead, so it is mainly used for multithreaded program.
+Syntax: StringBuffer demoString = new StringBuffer("I love java");
+StringBuilder
+StringBuilder in Java represents an alternative to String and StringBuffer Class, as it creates a mutable sequence of characters and it is not thread safe. It is used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
+
+Mutable String in java:
+An object whose state (data) can be changed after it is created
+Example: StringBuilder, StringBuffer, ArrayList, HashMap
+Keypoints: Methods like append(), put(), add() modify the same object.
+Immutable String in Java
+In Java, string objects are immutable. Immutable simply means unmodifiable or unchangeable. Once a string object is created its data or state can't be changed but a new string object is created.

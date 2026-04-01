@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/chapter-01  Introduction" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-02  Data Types, Variables &amp; Literals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-05  Operators &amp; Printing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-06  String Class &amp; Printing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-07  Conditional Statements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-08  Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-09 Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-10 Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-11 Object-Oriented Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-12 Inheritance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-13 Abstract Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-14 Interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-15 Inner Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-16 Static And Final" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-17 Packages" isTestSource="false" packagePrefix="myPackage1" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-18  Exception Handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-19 Multithreading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-20 java.lang Package" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-22 Lambda Expressions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-23 Java IO Stream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-25 Collection Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter-26 Date &amp; Time API" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

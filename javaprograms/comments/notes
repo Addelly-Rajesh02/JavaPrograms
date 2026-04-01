@@ -1,0 +1,21 @@
+1. Java comments are text notes written in the code to provide an explanation about the source code.
+2. The comments can be used to explain the logic or for documentation purposes.
+3. The compiler does not compile the comments.
+
+In Java, comments are very similar to C and C++.
+1. Single-line comments
+    // comment
+
+2. Multiline comments
+    /*
+    Comment (line 1)
+    Comment (line 2)
+    ...
+    */
+
+3. Documentation comments
+    /**
+    * line 1
+    * line 2
+    ...
+    */

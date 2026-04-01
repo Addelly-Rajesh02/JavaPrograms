@@ -1,0 +1,45 @@
+Arithmetic Operators
++ → Addition
+- → Subtraction
+* → Multiplication
+/ → Division
+% → Remainder
+
+Relational Operators
+== → Equal to
+!= → Not equal
+> → Greater than
+< → Less than
+>= → Greater or equal
+<= → Less or equal
+
+Logical Operators
+&& → AND
+|| → OR
+! → NOT
+
+Bitwise Operators
+& → Bitwise AND
+| → Bitwise OR
+^ → Bitwise XOR
+~ → Bitwise NOT
+<< → Left shift
+>> → Right shift
+>>> → Unsigned right shift
+
+Assignment Operators
+= → Assign value
++= → Add and assign
+-= → Subtract and assign
+*= → Multiply and assign
+/= → Divide and assign
+%= → Modulus and assign
+
+Unary Operators
++ → Positive
+- → Negative
+++ → Increment
+-- → Decrement
+
+Ternary Operator
+?: → Conditional operator

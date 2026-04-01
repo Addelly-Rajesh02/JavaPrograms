@@ -1,0 +1,33 @@
+What Is an Exception in Java?
+An exception (or exceptional event) is a problem that arises during the execution of a program. When an Exception occurs the normal flow of the program is disrupted and the program/Application terminates abnormally, which is not recommended, therefore, these exceptions are to be handled.
+Why Exception Occurs?
+An exception can occur for many different reasons. Following are some scenarios where an exception occurs.
+•	A user has entered an invalid data.
+•	A file that needs to be opened cannot be found.
+•	A network connection has been lost in the middle of communications or the JVM has run out of memory.
+
+✅ Types of Exceptions
+1. Checked → Must be handled at compile time (e.g.IOException, SQLException ).
+2. Unchecked → Occurs at runtime (e.g., NullPointerException, ArrayIndexOutOfBoundsException).
+Errors → Serious issues, not handled by program (e.g., OutOfMemoryError).
+
+Key Differences and Details:
+--Built-in Exceptions: Pre-defined classes in Java libraries (e.g., ArithmeticException, NullPointerException, IOException).
+        They are categorized based on their parent class:
+        1. Checked: Inherit from java.lang.Exception (e.g., IOException, SQLException).
+        2. Unchecked: Inherit from java.lang.RuntimeException (e.g., NullPointerException, ArrayIndexOutOfBoundsException).
+--Custom Exceptions (User-Defined): Created by developers to represent specialized error scenarios.
+        1. Checked Custom Exception: Extends the Exception class, forcing the caller to handle it.
+        2. Unchecked Custom Exception: Extends the RuntimeException class.
+
+✅ Exception Handling Keywords
+try → Block of code to monitor for exceptions.
+catch → Handles the exception.
+finally → Runs always (cleanup code).
+throw → Used to throw an exception.
+throws → Declares exceptions in method signature.
+
+✅ Hierarchy
+Throwable → Parent class.
+Exception → Recoverable issues.
+Error → Serious system errors.

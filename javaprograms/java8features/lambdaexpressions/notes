@@ -1,0 +1,30 @@
+Java Lambda Expressions
+1.  Java lambda expressions, introduced in Java 8, allow developers to write concise,
+    functional-style code by representing anonymous functions. They enable passing code
+    as parameters or assigning it to variables, resulting in cleaner and more readable programs.
+2. Lambda expressions implement a functional interface (An interface with only one abstract function)
+3. Enable passing code as data (method arguments).
+4. Allow defining behavior without creating separate classes.
+5. Lambda expressions are widely used with Java Collections and Streams for concise operations
+
+Why Use Lambda Expressions?
+Concise Code: Reduce boilerplate compared to anonymous classes.
+Functional Programming: Treat functions as first-class citizens.
+Improved Readability: Code is easier to read and maintain.
+Enhanced Collections and Streams: Simplify operations like filtering, mapping, and iterating.
+
+Syntax of Lambda Expressions
+Parameter List: Parameters for the lambda expression
+Arrow Token (->): Separates the parameter list and the body
+Body: Logic to be executed.
+
+Types of Lambda Parameters
+1. Lambda with Zero Parameters
+Syntax: () -> System.out.println("Zero parameter lambda");
+
+2. Lambda with a Single Parameter
+Syntax:(p) -> System.out.println("One parameter: " + p);
+
+3. Lambda Expression with Multiple Parameters
+Syntax:(p1, p2) -> System.out.println("Multiple parameters: " + p1 + ", " + p2);
+

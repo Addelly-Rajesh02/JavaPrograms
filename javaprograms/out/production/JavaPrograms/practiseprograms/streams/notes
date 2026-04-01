@@ -1,0 +1,189 @@
+⭐ 1. sequentialStream
+public <T> String sequentialStream(List<T> items)
+✔ Converts list elements into strings
+✔ Processes them sequentially
+✔ Joins them with spaces " "
+Example
+Input: [1, 2, 3]
+Output: "1 2 3"
+
+⭐ 2. parallelStream
+public <T> String parallelStream(List<T> items)
+✔ Same output as sequential
+✖ But processed using parallel stream (multi-threading)
+⚠️ Order is NOT guaranteed, but you converted to string and joined (order preserved because joining() collects sequentially internally).
+
+⭐ 3. containingOdd
+public Boolean containingOdd(List<Integer> items)
+✔ Returns true if ANY odd number exists
+Uses anyMatch
+
+⭐ 4. onlyOdd
+public Boolean onlyOdd(List<Integer> items)
+✔ Returns true if ALL values are odd
+Uses allMatch
+
+⭐ 5. palindromesInList
+public <T> List<T> palindromesInList(List<T> items)
+✔ Returns items where
+string equals its reverse
+Example: "madam", "121"
+
+⭐ 6. stringsToUpperCase
+public List<String> stringsToUpperCase(List<String> items)
+✔ Converts all strings to UPPERCASE
+
+⭐ 7. duplicatesInList
+public <T> List<T> duplicatesInList(List<T> items)
+✔ Returns only the duplicate values
+✔ Uses Collections.frequency() and distinct()
+Example:
+Input → [1,2,2,3,3,3]
+Output → [2,3]
+
+⭐ 8. nonRepeatedCharacter
+public String nonRepeatedCharacter(String string)
+✔ Finds first non-repeat character
+Example: "swiss" → "w"
+
+⭐ 9. descendingOrder
+public <T extends Comparable> List<T> descendingOrder(List<T> items)
+✔ Sorts items in reverse (descending) order.
+
+⭐ 10. removeNullValues
+public <T> List<T> removeNullValues(List<T> items)
+✔ Removes all null values using Objects::nonNull.
+
+⭐ 11. commaSeparatedStrings
+public <T> String commaSeparatedStrings(List<T> items)
+✔ Converts list → "a,b,c"
+
+⭐ 12. countOccuranceOfWord
+public Map<String, Long> countOccuranceOfWord(List<String> items)
+✔ Returns frequency of each word
+✔ Uses groupingBy + counting()
+Example:
+Input → ["a","b","a"]
+Output → {a=2, b=1}
+
+⭐ 13. maximumNumber
+public Integer maximumNumber(List<Integer> numbers)
+✔ Finds maximum value
+Uses max(...)
+
+⭐ 14. sumOfNumbersInList
+public Integer sumOfNumbersInList(List<Integer> numbers)
+✔ Returns sum of all numbers using mapToInt().sum().
+
+⭐ 15. flattenList
+public <T> List<T> flattenList(List<List<T>> listOfList)
+✔ Flattens nested list:
+[[1,2], [3,4]] → [1,2,3,4]
+Uses flatMap
+
+⭐ 16. listOfObjectToMap
+You left this empty — typically used to convert a list of objects into a map.
+
+⭐ 17. elementsStartingWith
+public List<String> elementsStartingWith(List<String> items, String startsWith)
+✔ Returns strings starting with given prefix.
+
+⭐ 18. uniqueElements
+public <T> List<T> uniqueElements(List<T> items)
+✔ Removes duplicates using .distinct()
+
+⭐ 19. secondHighestNumber
+public Integer secondHighestNumber(List<Integer> items)
+✔ Sort in descending
+✔ Skip 1
+✔ Return next element
+Example:
+[10,20,30] → 20
+
+⭐ 20. secondLowestNumber
+public Integer secondLowestNumber(List<Integer> items)
+✔ Sort ascending
+✔ Skip 1
+
+⭐ 21. greaterThan
+public List<Integer> greaterThan(List<Integer> items, Integer greaterThan)
+✔ Returns numbers greater than given value.
+
+⭐ 22. countEven
+public Long countEven(List<Integer> items)
+✔ Count even numbers using .count()
+
+⭐ 23. listToList
+public <T> List<String> listToList(List<T> items)
+✔ Convert any list to a list of strings.
+
+⭐ 24. removeDuplicateCharactersInString
+public String removeDuplicateCharactersInString(String items)
+✔ Removes duplicate characters
+Example: "banana" → "ban"
+
+⭐ 25. findLongestStringInList
+✔ Finds longest string using comparator.
+
+⭐ 26. findShortestStringInList
+✔ Finds shortest string.
+
+⭐ 27. groupByLength
+public Map<Integer,List<String>> groupByLength(List<String> items)
+✔ Groups strings by their length.
+
+⭐ 28. countOccurenceOfCharacter
+✔ Counts how many times each character appears.
+Example:
+"hello" → {h=1,e=1,l=2,o=1}
+
+⭐ 29. startingWithDigit
+✔ Converts integers → string
+✔ Returns those starting with given prefix.
+Example:
+List: [123, 456], prefix "1" → "123"
+
+⭐ 30. isNegative
+✔ True if any number is negative.
+
+⭐ 31. lastElementOfList
+✔ Returns last element using reduce.
+
+⭐ 32. listToMap
+🎯 Converts any list into a map of
+index → value
+Example:
+List: ["A","B","C"]
+Map:  {0=A, 1=B, 2=C}
+
+⭐ 33. commaSeparatedToList
+✔ Converts "1,2,3" → [1,2,3]
+
+⭐ 34. sortByLengthThenAlphabetically
+✔ Sorts strings first by length
+✔ Then alphabetically (for same length)
+
+⭐ 35. endingWith
+✔ Returns strings ending with given suffix.
+
+⭐ 36. sumOfSquares
+✔ Square each number then add them.
+Example:
+[1,2,3] → 1+4+9 = 14
+
+⭐ 37. listOfFirstEvenNumbers
+✔ Generates first N even numbers using Stream.iterate()
+Example:
+limit=5 → [2,4,6,8,10]
+
+⭐ 38. squareOfEven
+✔ From list → only evens
+✔ Square them
+Example:
+[1,2,3,4] → [4,16]
+
+⭐ 39. firstOneWithLengthGreaterThan
+✔ Returns first string whose length is greater than given number.
+Example:
+Input: ["a","hello","world"], 3
+Output → "hello"

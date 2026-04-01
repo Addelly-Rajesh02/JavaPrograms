@@ -1,0 +1,94 @@
+⭐ 1. Common Functions in All Number Wrapper Classes
+(Applies to: Byte, Short, Integer, Long, Float, Double)
+Static Methods
+✔ valueOf(String s)
+Converts String to wrapper object.
+✔ parseInt(), parseDouble(), etc.
+Convert String to primitive.
+✔ toString()
+Convert value to String.
+
+Instance Methods
+✔ intValue(), doubleValue(), floatValue()
+Convert wrapper object to primitive types.
+✔ compareTo()
+Compare two wrapper objects.
+✔ equals()
+Check equality.
+
+⭐ 2. Integer Class (Most Used)
+Important Methods
+parseInt(String s)
+valueOf(int i)
+toString(int i)
+compare(int a, int b)
+compareTo(Integer another)
+intValue()
+byteValue()
+MIN_VALUE, MAX_VALUE (constants)
+sum(), max(), min()
+
+⭐ 3. Double Class
+Methods
+parseDouble(String s)
+valueOf(double d)
+isNaN()
+isInfinite()
+doubleValue()
+
+⭐ 4. Float Class
+Methods
+parseFloat()
+valueOf()
+isNaN()
+isInfinite()
+floatValue()
+
+⭐ 5. Long Class
+Methods
+parseLong()
+valueOf()
+toString()
+compare()
+bitCount(long value) – counts number of 1-bits
+rotateLeft(), rotateRight()
+
+⭐ 6. Short Class
+Methods
+parseShort()
+valueOf()
+shortValue()
+compare()
+
+⭐ 7. Byte Class
+Methods
+parseByte()
+valueOf()
+byteValue()
+
+⭐ 8. Boolean Class
+Methods
+parseBoolean(String s)
+valueOf(boolean b)
+booleanValue()
+toString(boolean b)
+compare(boolean x, boolean y)
+
+⭐ 9. Character Class
+(This is one of the most detailed wrapper classes.)
+Character testing methods
+isDigit(char c)
+isLetter(char c)
+isLetterOrDigit(char c)
+isUpperCase(char c)
+isLowerCase(char c)
+isWhitespace(char c)
+
+Character conversion methods
+toUpperCase(char c)
+toLowerCase(char c)
+toString(char c)
+
+Other useful
+charValue()
+compare(char x, char y)

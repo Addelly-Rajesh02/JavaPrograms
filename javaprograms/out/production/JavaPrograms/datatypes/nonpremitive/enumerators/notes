@@ -1,0 +1,6 @@
+1. Enums were introduced in Java 5.0. Enums restrict a variable to have one of only a few predefined values.
+2. The values in this enumerated list are called enums.
+3. With the use of enums it is possible to reduce the number of bugs in your code.
+
+Note − Enums can be declared as their own or inside a class. Methods, variables,
+constructors can be defined inside enums as well.

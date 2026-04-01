@@ -1,0 +1,16 @@
+--------------------------Java 8 Features---------------------------
+Java 8 is one of the most significant releases in the history of the Java programming language.
+Released on March 18, 2014, by Oracle.
+Support for functional programming with Lambda expressions and functional javainterfaces.
+Introduction of the Stream API for efficient data processing.
+A new Date and Time API for better handling of time and date operations.
+Default and static methods in java interfaces for greater flexibility.
+
+1. Lambda Expressions
+2. Functional Interfaces
+3. Method Reference
+4. Streams
+5. Comparable and Comparator
+6. Optional Class
+7. Date/Time API
+

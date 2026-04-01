@@ -1,0 +1,107 @@
+✅ Primitive Data Types
+Java has 8 primitive types: byte, short, int, long, float, double, char, boolean.
+They store simple values like numbers, characters, or true/false.
+
+Size is fixed for each type.
+Stored in stack memory.
+
+✅ Primitive Types and Their Wrapper Classes
+int → primitive type for integers.
+Integer → non-primitive wrapper class for int.
+long → primitive type for long integers.
+Long → wrapper class for long.
+float → primitive type for floating-point numbers.
+Float → wrapper class for float.
+Other examples:
+double → primitive, Double → wrapper.
+char → primitive, Character → wrapper.
+boolean → primitive, Boolean → wrapper.
+
+✅ Why wrappers exist?
+Wrappers allow primitives to be used as objects (needed for collections, generics, etc.).
+Auto Boxing: The process of converting primitive to wrapper class is called autoboxing
+Auto UnBoxing:The process of converting wrapper class to primitive is called auto unboxing.
+
+✅ Non-Primitive Data Types
+Non-primitive types include String, arrays, classes, and javainterfaces.
+They store references to objects, not actual values.
+Size is not fixed; depends on the object.
+Stored in heap memory.
+
+What is a Java Variable?
+A variable provides us with named storage that our programs can manipulate.
+Each variable in Java has a specific type, which determines the size and layout of the variable's memory;
+the range of values that can be stored within that memory;
+the set of operations that can be applied to the variable.
+
+Java Variables Types:
+•	Local Variables
+•	Class Variables (Static Variables)
+•	Instance Variables (Non-static Variables)
+
+✅ Local Variables
+Declared inside a method, constructor, or block.
+Scope is limited to that method or block.
+Must be initialized before use (no default value).
+Stored in the stack memory.
+
+✅ Instance (Non-Static) Variables
+Declared inside a class but outside any method, without static.
+Each object gets its own copy.
+Have default values (e.g., 0 for int, null for objects).
+Stored in the heap as part of the object.
+
+✅ Static Variables
+Declared inside a class with the static keyword.
+Shared by all objects of the class.
+Have default values.
+Stored in the method area (class-level memory).
+
+Java Identifiers:
+All Java components require names. Names used for classes, variables, and methods are called identifiers. In Java, there are several points to remember about identifiers. They are as follows −
+•	All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+•	After the first character, identifiers can have any combination of characters.
+•	A keyword cannot be used as an identifier.
+•	Most importantly, identifiers are case sensitive.
+•	Examples of legal identifiers: age, $salary, _value, __1_value.
+•	Examples of illegal identifiers: 123abc, -salary.
+
+Java Keywords
+The following list shows the reserved words in Java.
+These reserved words may not be used as constant or variable or any other identifier names.
+✅ Data Types
+boolean, byte, char, short, int, long, float, double
+
+✅ Access Modifiers
+public, private, protected
+
+✅ Class/Interface/Inheritance
+class, interface, enum, extends, implements
+
+✅ Object & Memory
+new, this, super
+
+✅ Control Flow
+if, else, switch, case, default
+do, while, for, break, continue, return
+
+✅ Exception Handling
+try, catch, finally, throw, throws
+
+✅ Packages & Imports
+package, import
+
+✅ Modifiers
+abstract, final, static, synchronized, transient, volatile
+
+✅ Others
+void, null, true, false
+
+✅ Class Loading & Reflection
+instanceof
+
+✅ Advanced Features
+assert, native, strictfp
+
+✅ Newer Keywords
+const, goto (reserved but not used)

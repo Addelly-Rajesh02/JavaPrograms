@@ -1,0 +1,86 @@
+✅ What is OOP?
+OOP is a programming paradigm based on objects and classes.
+Helps in code reusability, modularity, and maintainability.
+
+✅ Class
+Blueprint for creating objects.
+Contains fields (data) and methods (behavior).
+Example: class Car { String color; void drive(){} }
+
+✅ Object
+Instance of a class.
+Created using new keyword.
+Example: Car c = new Car();
+
+✅ Main Principles
+Encapsulation
+Wrapping data and methods together.
+Achieved using private fields and getter/setter.
+Example: private int age; public void setAge(int a){ age=a; }
+
+Inheritance
+One class acquires properties of another.
+Achieved using extends keyword.
+Example: class Dog extends Animal { }
+
+Polymorphism
+Compile-time: Method overloading.
+Runtime: Method overriding.
+Example: void show(int a); void show(String b);
+Same method behaves differently based on context.
+Types: Compile-time (method overloading) and Runtime (method overriding).
+
+Abstraction
+Hiding implementation details, showing only functionality.
+Achieved using abstract classes and javainterfaces.
+
+✅ Other Concepts
+Class → Blueprint for objects.
+Object → Instance of a class.
+Constructor → Initializes object.
+Access Modifiers → public, private, protected, default.
+1. public:
+   ✔ Accessible from anywhere
+   → Same class
+   → Same package
+   → Different package
+   → Through child class
+   → Through object
+2. private:
+   ✔ Accessible only inside the same class
+   ❌ Not accessible from: other classes, subclasses, other packages
+3. default (no keyword):
+   ✔ Accessible within the same package only
+   ❌ Not accessible from: classes in other packages (even subclasses)
+4. protected:
+   ✔ Accessible in: Same class, Same package, Subclass (even in different package)
+   ❌ Not accessible in non-subclass classes of another package.
+
+Interfaces
+Contains abstract methods only (Java 8+ allows default methods).
+Implemented using implements keyword.
+Example: interface Drawable { void draw(); }
+class-->implements interface
+interface->extends interface
+
+Abstract Class
+An abstract class is a class that cannot be instantiated (you cannot create objects of it).
+It may contain abstract methods (without body) and concrete methods (with body).
+Declared with abstract keyword.
+Cannot be instantiated.
+Example: abstract class Shape { abstract void draw(); }
+
+Default Class (Package-Private Class)
+There is no keyword called "default class" in Java.
+But when you don’t write any access modifier for a class, it is called a default (package-private) class.
+→ It is accessible only within the same package.
+
+Static Class
+Java does not allow top-level classes to be static.
+However, nested classes (inner classes) can be static.
+
+Final Class
+A final class cannot be inherited.
+
+Concrete Class
+A normal class (non-abstract) that provides complete implementation.
