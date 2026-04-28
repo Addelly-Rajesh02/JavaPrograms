@@ -1,7 +1,6 @@
 ✅ Primitive Data Types
 Java has 8 primitive types: byte, short, int, long, float, double, char, boolean.
 They store simple values like numbers, characters, or true/false.
-
 Size is fixed for each type.
 Stored in stack memory.
 

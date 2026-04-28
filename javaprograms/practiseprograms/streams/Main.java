@@ -89,8 +89,8 @@ public class Main {
 //        List<String> separateByCommaStrings=readString();
 //        System.out.print(streams.commaSeparatedStrings(separateByCommaStrings));
 
-        List<String> occuranceOfWords=readString();
-        System.out.print(streams.countOccuranceOfWord(occuranceOfWords));
+//        List<String> occuranceOfWords=readString();
+//        System.out.print(streams.countOccuranceOfWord(occuranceOfWords));
 
 //        List<Integer> largestNumber=readInteger();
 //        System.out.print(streams.maximumNumber(largestNumber));
@@ -188,8 +188,8 @@ public class Main {
 
 //        System.out.print(streams.listOfFirstEvenNumbers(10));
 
-//        List<Integer> squareOfEvenNumbers =readInteger();
-//        System.out.print(streams.squareOfEven(squareOfEvenNumbers));
+        List<Integer> squareOfEvenNumbers =readInteger();
+        System.out.print(streams.squareOfEven(squareOfEvenNumbers));
 
 //        List<String> firstWordGreaterThan =readString();
 //        System.out.print(streams.firstOneWithLengthGreaterThan(firstWordGreaterThan,3L));

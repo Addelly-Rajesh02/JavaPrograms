@@ -16,5 +16,8 @@ public class NestedIf {
                 System.out.println("Entered number is exactly 10");
             }
         }
+        else{
+        System.out.println("Entered number is greater than 15");
+        }
     }
 }
